@@ -277,9 +277,9 @@ const HomePage: NextPage = () => {
               </div>
 
               <div className="bg-white rounded-lg p-6 shadow-sm">
-                <H3 className="text-gray-900 mb-2">What if I'm not satisfied?</H3>
+                <H3 className="text-gray-900 mb-2">What if I&apos;m not satisfied?</H3>
                 <Paragraph className="text-gray-600">
-                  We offer a 30-day money-back guarantee. If you're not completely satisfied, we'll refund your purchase, no questions asked.
+                  We offer a 30-day money-back guarantee. If you&apos;re not completely satisfied, we&apos;ll refund your purchase, no questions asked.
                 </Paragraph>
               </div>
             </div>

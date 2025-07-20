@@ -5,7 +5,7 @@ import { submitInterestForm } from '../utils/database';
 
 const SupabaseTestPage: React.FC = () => {
   const [status, setStatus] = useState<string>('Testing...');
-  const [testResult, setTestResult] = useState<any>(null);
+  const [testResult, setTestResult] = useState<Record<string, unknown> | null>(null);
 
   useEffect(() => {
     testSupabaseConnection();

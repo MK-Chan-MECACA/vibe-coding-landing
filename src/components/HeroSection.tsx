@@ -3,6 +3,7 @@ import { InterestForm } from './InterestForm';
 import { SocialProof } from './SocialProof';
 import { H1, H2, LeadText, Paragraph } from './Typography';
 import { Button } from './ui';
+import type { FormData } from '../types';
 
 /**
  * Hero section component props interface
@@ -23,7 +24,7 @@ interface HeroSectionProps {
   /** Custom success message */
   successMessage?: string;
   /** Callback when form is successfully submitted */
-  onFormSuccess?: (data: any) => void;
+  onFormSuccess?: (data: FormData) => void;
   /** Callback when form submission fails */
   onFormError?: (error: string) => void;
 }
