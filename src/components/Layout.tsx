@@ -233,12 +233,7 @@ export const Layout: React.FC<LayoutProps> = ({
                       >
                         Course
                       </a>
-                      <a 
-                        href="/ui-components" 
-                        className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
-                      >
-                        Components
-                      </a>
+
                       <a 
                         href="/#contact" 
                         className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
@@ -322,18 +317,10 @@ export const Layout: React.FC<LayoutProps> = ({
                       </li>
                       <li>
                         <a 
-                          href="/ui-components" 
+                          href="/#hero-form" 
                           className="text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
                         >
-                          UI Components
-                        </a>
-                      </li>
-                      <li>
-                        <a 
-                          href="/test" 
-                          className="text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
-                        >
-                          Test Page
+                          Join Waitlist
                         </a>
                       </li>
                     </ul>
